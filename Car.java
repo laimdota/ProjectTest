@@ -19,6 +19,9 @@ import javax.validation.constraints.Size;
 @Table(name="CarTable")//to create table automatically
 public class Car {
 	
+	
+	
+	//comment
 	@Id //value will be unique
 	@GeneratedValue(strategy=GenerationType.AUTO)//database will generate unique id
 	@Column(name="Id")//id column will be in table
